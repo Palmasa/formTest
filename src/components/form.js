@@ -4,7 +4,7 @@ import { useForm, ValidationError } from '@formspree/react';
 const Form = () => {
   const [state, handleSubmit] = useForm("mayaryoo");
   if (state.succeeded) {
-      return <p>Thanks for joining!</p>;
+      return <p>OPTRA ÑUIEFHPÑIOuHVÑOERIh`ÓÑRUieFH</p>;
   }
 
   return (
@@ -21,6 +21,16 @@ const Form = () => {
         prefix="Email" 
         field="email"
         errors={state.errors}
+      />
+      <input 
+        id="number"
+        type="number" 
+        name="number"
+      />
+      <input 
+        id="name"
+        type="name" 
+        name="name"
       />
       <textarea
         id="message"
