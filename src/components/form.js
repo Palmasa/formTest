@@ -6,8 +6,9 @@ const Form = () => {
   if (state.succeeded) {
       return <p>Thanks for joining!</p>;
   }
+
   return (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} method="post" action="https://formspree.io/f/mayaryoo">
       <label htmlFor="email">
         Email Address
       </label>
